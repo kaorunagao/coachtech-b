@@ -29,7 +29,6 @@ padding-right: 30px;
 
 .relative {
   width: 100%;
-  top: 70;
 }
 .relative__img {
   float: right;
@@ -123,6 +122,9 @@ dd {
   position: absolute;
   text-align: center;
   top: 0%;
+}
+
+.about__content p {
   font-family: 'Gorditas', cursive;
 }
 
@@ -299,7 +301,7 @@ dd {
 .blog__content {
   position: absolute;
   z-index: 10000;
-  margin-top: -660;
+  margin-top: -650;
   margin-left: -50;
   color: gray;
 }
@@ -320,7 +322,10 @@ dd {
 .company__content {
   margin-top: 50;
   margin-left: 150;
+}
 
+.company__content p {
+  font-family: 'Gorditas', cursive;
 }
 
 table {
